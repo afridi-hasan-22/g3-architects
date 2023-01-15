@@ -1,0 +1,258 @@
+/* *font link */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@500;700&family=Roboto+Condensed:wght@700&family=Work+Sans:wght@400;500&display=swap');
+
+/* *common styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* *header section */
+header {
+  background-color: bisque;
+  width: 100vw;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 1.4rem;
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.nav-items ul {
+  margin-top: 50px;
+  display: flex;
+}
+
+.nav-items li {
+  font-weight: 500;
+  font-size: 1rem;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 116px;
+}
+
+.banner-title {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.banner-desc {
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: #727272;
+}
+
+.banner-btn {
+  margin-top: 25px;
+}
+
+.banner-btn button {
+  background-color: #FF900E;
+  color: #ffffff;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.banner-img {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* *main content */
+main .container {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.features {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.features-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.features-images img {
+  width: 200px;
+}
+.features-title{
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.ti-1 {
+  color: #727272;
+}
+
+.ti-2 {
+  color: #131313;
+}
+
+.ti-3 {
+  color: #FF900E;
+}
+.features-desc{
+  font-weight: 400;
+  color: #727272;
+  font-size: 0.6rem;
+  margin-top: 10px;
+}
+.features-btn{
+  margin-top: 20px;
+}
+.features-btn button{
+  background-color: #FF900E;
+  border: 0;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.features-2{
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.features-2-img img{
+  width: 500px;
+
+}
+.features-2-title{
+  font-weight: 700;
+  font-size: 1.3rem;
+  
+}
+.bd-color{
+  border-left: 5px solid  #FF900E;
+  padding: 0 20px;
+}
+.features-2-desc{
+  font-weight: 400;
+  color: #727272;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  margin-bottom:30px ;
+}
+.features-box{
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.box-title{
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.box-desc{
+ font-weight: 400;
+ font-size: 0.8rem;
+ color: #727272;
+}
+.facts{
+  margin-top: 130px;
+}
+.fact-title{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.fact-desc{
+  margin-top: 24px;
+  font-weight: 400;
+  color: #727272;
+  font-size: 0.8rem;
+}
+.fact-logos{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+}
+.fact-logo{
+  border: 2px solid #FF900E;
+  border-radius: 8px;
+  padding: 20px;
+}
+.sponsors{
+  margin-top: 140px;
+}
+.spons-description{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.spons-title{
+ font-weight: 700;
+ font-size: 1.3rem;
+}
+.spons-desc{
+  margin-top: 20px;
+  font-weight: 400;
+  color: #727272;
+  font-size: 0.8rem;
+}
+.spons-logos{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.spons-logo img{
+  width: 100px;
+  height: 30px;
+  mix-blend-mode: luminosity;
+}
+footer .container{
+  background-color: bisque;
+  margin-top: 130px;
+}
+.footer-desc{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
